@@ -1,0 +1,47 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0 1rem 0 0;
+    transition: 0.5s;
+}
+
+.component:hover {
+    box-shadow: 0 0 35px rgba(129, 129, 129, 0.562);
+    transform: scale(1.02);
+}
+
+.component li {
+    list-style: none;
+}
+
+.component > img {
+    height: 8rem;
+    width: 8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+}
+
+button {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+button:hover {
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(109, 109, 109, 0.685);
+}
+
+.component h1 {
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.QuoteComponent {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    align-content: center;
+}
+
+h1 {
+    margin: 1rem;
+}
