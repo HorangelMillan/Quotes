@@ -1,4 +1,3 @@
-import Component from "./components/QuoteBox"
 import './App.css';
 import QuoteBox from "./components/QuoteBox";
 
