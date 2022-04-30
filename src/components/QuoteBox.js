@@ -1,4 +1,4 @@
-import { Component, useState } from "react";
+import { useState } from "react";
 import quotes from "./JsonDB/quotes.json"
 import React from 'react';
 import "../styles/QuoteBox.css"
